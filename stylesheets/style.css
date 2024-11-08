@@ -1,6 +1,6 @@
 body{
   background-image: url("images/flag.jpg");
-  display:grid;
+  display: grid;
   grid-template: auto auto auto / 1fr 2fr 1fr;
 }
 
@@ -12,6 +12,7 @@ body{
 
 #pagecontainer{
   grid-area: 2 / 2 / 3 / 3;
-  background-color:#555;
-  width:100%
+  background-color: #555;
+  width: 100%
+  padding: 0px 10px;
 }
