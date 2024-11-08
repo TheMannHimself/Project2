@@ -1,5 +1,5 @@
 body{
-  background-image: url("images/flag.jpg");
+  background-image: url("/images/flag.jpg");
   display: grid;
   grid-template-rows: auto auto auto;
   grid-template-columns: 1fr 2fr 1fr;
