@@ -1,15 +1,20 @@
 body{
   background-image: url("/Project2/images/flag.jpg");
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
 .banner{
   text-align: center;
+  grid-area: 1 / 2 / 2 / 3;
   width: 100%
   padding: 0px 10px;
 }
 
 #pagecontainer{
-  background-color: #fff;
+  grid-area: 2 / 2 / 3 / 3;
+  background-color: #555;
   width: 100%
   padding: 0px 10px;
 }
