@@ -5,6 +5,7 @@ body{
 }
 
 .banner{
+  text-align: center;
   grid-area: 1/1/3/2;
 }
 
