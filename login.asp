@@ -84,7 +84,7 @@
 					<li>Details of the registration you are applying for - e.g. birth, adoption, marriage, civil partnership or death</li></br/>					
 					<li>One of the following valid credit or debit cards if placing an order (searching our online indexes is free)
 					</br>
-					&nbsp;&nbsp;<img src="images/MASTERCARD.gif" alt="Mastercard" border="0">&nbsp;&nbsp;<img src="Images/VISA_CREDIT.gif" alt="Visa Credit">&nbsp;&nbsp;<img src="Images/VISA_DEBIT.gif" alt="Visa Debit">&nbsp;&nbsp;<img src="Images/VISA_ELECTRON.gif" alt="Visa Electron">&nbsp;&nbsp;<img src="Images/MAESTRO.gif" alt="Maestro">
+					&nbsp;&nbsp;<img src="images/MASTERCARD.gif" alt="Mastercard" border="0">&nbsp;&nbsp;<img src="images/VISA_CREDIT.gif" alt="Visa Credit">&nbsp;&nbsp;<img src="images/VISA_DEBIT.gif" alt="Visa Debit">&nbsp;&nbsp;<img src="images/VISA_ELECTRON.gif" alt="Visa Electron">&nbsp;&nbsp;<img src="images/MAESTRO.gif" alt="Maestro">
 					</li>					
 					</ul>
 					</td>
