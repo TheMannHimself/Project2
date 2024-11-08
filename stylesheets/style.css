@@ -1,13 +1,15 @@
 body{
   background-image: url("images/flag.jpg");
   display: grid;
-  grid-template: auto auto auto / 1fr 2fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
 .banner{
   text-align: center;
   grid-area: 1 / 2 / 2 / 3;
   width: 100%
+  padding: 0px 10px;
 }
 
 #pagecontainer{
