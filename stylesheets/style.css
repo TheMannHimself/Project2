@@ -1,7 +1,10 @@
 body{
   background-image: url("images/flag.jpg");
+  display:grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
 }
 
 #pagecontainer{
-  background-color:#fff;
+  grid-area:1/1/2/2;
+  background-color:#555;
 }
