@@ -8,13 +8,13 @@ body{
 .banner{
   text-align: center;
   grid-area: 1 / 2 / 2 / 3;
-  width: 100%
+  width: 100%;
   padding: 0px 10px;
 }
 
 #pagecontainer{
   grid-area: 2 / 2 / 3 / 3;
   background-color: #555;
-  width: 100%
+  width: 100%;
   padding: 0px 10px;
 }
