@@ -17,7 +17,8 @@ BODY
     PADDING-BOTTOM: 0px;
     MARGIN: 0px auto;
     PADDING-LEFT: 0px;
-    WIDTH: 780px;
+    max-WIDTH: 780px;
+    min-width: 150px;
     PADDING-RIGHT: 0px;
     HEIGHT: 1%;
     PADDING-TOP: 0px
