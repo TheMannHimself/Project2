@@ -23,7 +23,7 @@ header img {
   gap: 20px 0px 20px 0px;
   justify-items: center;
   background-color: #fff;
-  background-image: url("/Project2/images/flag.jpg"); 
+  background-image: url("../images/flag.jpg"); 
   background-size: cover;
   background-position: center;
   padding: 40px;
