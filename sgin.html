@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>General Register Office - Online Ordering Service - Login</title>
+    <link href="stylesheets/style.css" rel="stylesheet" media="screen" title="main">
+    <!-- <script type="text/javascript">
+        // Framebuster Script to prevent framing
+        if (self === top) {
+            document.documentElement.style.display = 'block';
+        } else {
+            top.location = self.location;
+        }
+
+        // Force HTTPS
+        if (window.location.protocol !== "https:") {
+            window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+        }
+    </script> -->
+</head>
+<body>
+    <div class="banner">
+        <img src="/gro/content/certificates/images/hmpo_white_logo.png" alt="HM Passport Office Logo" width="300">
+        <h1 class="banner_title">General Register Office</h1>
+        <p>Official information on births, adoptions, marriages, civil partnerships, and deaths in England and Wales</p>
+    </div>
+
+    <div id="pagecontainer">
+        <h1>Register or Login</h1>
+        <p>Welcome to the General Register Office online ordering service. Please enter your details below to log in.</p>
+
+        <form name="login_user" method="post" action="login.asp">
+            <label for="username">E-Mail Address</label>
+            <input id="username" type="text" name="username" required>
+            
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" required>
+            
+            <button type="submit" name="Submit">Login</button>
+            <button type="reset">Reset</button>
+        </form>
+
+        <p><a href="forgotpw.asp">Forgotten your password?</a></p>
+        <p><a href="faq.asp#UsingService">Need to change your details?</a></p>
+        <p>If you are using the site for the first time, you will need to <a href="/gro/content/certificates/register.asp?UserType=Individual">Register as an Individual</a> or <a href="/gro/content/certificates/register.asp?UserType=Organisation">Register as an Organisation</a>.</p>
+    </div>
+
+    <footer>
+        <nav>
+            <a href="accessibility.asp">Accessibility</a> | 
+            <a href="privacy_statement.asp">Privacy Statement</a> | 
+            <a href="cookie_policy.asp">Cookie Policy</a> | 
+            <a href="https://www.gov.uk/browse/births-deaths-marriages">GOV.UK</a>
+        </nav>
+        <p>&copy; 2024 Crown Copyright</p>
+    </footer>
+</body>
+</html>
