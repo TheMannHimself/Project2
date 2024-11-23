@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #000;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -20,22 +20,22 @@ header img {
 
 #pagecontainer {
   display: grid;
-  gap: 20px;
+  grid-template-columns: 1fr 2fr 1fr;
   justify-items: center;
   background-color: #333;
-  background-image: url("../images/flag.jpeg"); 
+  background-image: url("../images/flag.jpeg");
   background-size: cover;
   background-position: center;
-  padding: 40px 0px 40px 0px;
   box-sizing: border-box;
 }
 
 .content-box {
-  background-color: #666; 
+  background-color: #666;
   padding: 20px;
   max-width: 600px;
   border-radius: 8px;
   text-align: center;
+  margin: 10px;
 }
 
 .content-box img {
@@ -45,11 +45,21 @@ header img {
 }
 
 footer {
-  background-color: #333;
+  background-color: #000;
   color: #fff;
   text-align: center;
   padding: 10px;
 }
 ul {
   list-style-type: none;
+}
+.content {
+  grid-column: 2;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background-color: #ffffffcc;
+  border-radius: 8px;
+  width: 100%;
+  padding: 40px 0px;
 }
