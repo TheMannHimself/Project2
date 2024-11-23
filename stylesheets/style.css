@@ -18,7 +18,7 @@ header img {
   margin: 0 auto 10px;
 }
 
-#pagecontainer {
+.pagecontainer {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   justify-items: center;
