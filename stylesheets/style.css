@@ -1,20 +1,98 @@
-body{
-  background-image: url("/Project2/images/flag.jpg");
+body {
   display: grid;
-  grid-template-rows: auto auto auto;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  margin: 0;
 }
 
-.banner{
+header {
+  background-color: #000;
+  color: #fff;
   text-align: center;
-  grid-area: 1 / 2 / 2 / 3;
-  width: 100%;
-  padding: 0px 10px;
+  padding: 20px;
 }
 
-#pagecontainer{
-  grid-area: 2 / 2 / 3 / 3;
-  background-color: #555;
+header img {
+  max-width: 250px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.pagecontainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-items: center;
+  background-color: #333;
+  background-image: url("../images/flag.jpeg");
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+.content-box {
+  display: grid;
+  place-items: center;
+  background-color: #666;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 10px;
+}
+
+.content-box img {
+  width: 13%; 
+  height: auto;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+}
+.content {
+  grid-column: 2;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background-color: #ffffffcc;
+  border-radius: 8px;
   width: 100%;
-  padding: 0px 10px;
+  padding: 40px 0px;
+}
+.nav {
+  background-color: #333;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+@media screen and (max-width: 1300px) {
+   li {
+     float: none;
+   }
 }
