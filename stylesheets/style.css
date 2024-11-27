@@ -57,13 +57,16 @@ ul {
 }
 .content {
   grid-column: 2;
-  display: grid;
-  justify-content: center;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
   background-color: #ffffffcc;
   border-radius: 8px;
   width: 100%;
   padding: 40px 0px;
+  margine: 20px;
+}
+#home {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 .nav {
   background-color: #333;
